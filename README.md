@@ -39,9 +39,9 @@ const receipt1 = {
     sauce: "Green Crack",
     toppings: ["Baby Bok Choy", "Cucumber Kimchi"],
     drink: "Korchata",
-    cost: 22
+    cost: 22,
   },
-  paid: false
+  paid: false,
 };
 const receipt2 = {
   person: "Jerrica",
@@ -52,9 +52,9 @@ const receipt2 = {
     sauce: "Korilla",
     toppings: ["Yuzu Pickled Sweet Pepper", "Kale"],
     drink: "Korchata",
-    cost: 19
+    cost: 19,
   },
-  paid: false
+  paid: false,
 };
 const receipt3 = {
   person: "Matt",
@@ -65,9 +65,9 @@ const receipt3 = {
     sauce: "K'lla",
     toppings: ["Blue Potato Salad", "Pico De Gallo", "Red Kimchi"],
     drink: "Sparkling Blood Orange Soda",
-    cost: 20
+    cost: 20,
   },
-  paid: false
+  paid: false,
 };
 ```
 
@@ -138,9 +138,9 @@ const receipts = [
       sauce: "Green Crack",
       toppings: ["Baby Bok Choy", "Cucumber Kimchi"],
       drink: "Korchata",
-      cost: 22
+      cost: 22,
     },
-    paid: false
+    paid: false,
   },
   {
     person: "Jerrica",
@@ -151,9 +151,9 @@ const receipts = [
       sauce: "Korilla",
       toppings: ["Yuzu Pickled Sweet Pepper", "Kale"],
       drink: "Korchata",
-      cost: 19
+      cost: 19,
     },
-    paid: false
+    paid: false,
   },
   {
     person: "Matt",
@@ -164,10 +164,10 @@ const receipts = [
       sauce: "K'lla",
       toppings: ["Blue Potato Salad", "Pico De Gallo", "Red Kimchi"],
       drink: "Sparkling Blood Orange Soda",
-      cost: 20
+      cost: 20,
     },
-    paid: true
-  }
+    paid: true,
+  },
 ];
 ```
 
