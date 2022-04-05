@@ -16,14 +16,20 @@ function App() {
         )
       );
     } else if ("karolin".includes(input)) {
+
       let result = Receipts.find((receipt) => receipt.person == "Karolin");
       setContent(<Card receipt={result}></Card>);
+
     } else if ("jerrica".includes(input)) {
+
       let result = Receipts.find((receipt) => receipt.person == "Jerrica");
       setContent(<Card receipt={result}></Card>);
+
     } else if ("matt".includes(input)) {
+
       let result = Receipts.find((receipt) => receipt.person == "Matt");
       setContent(<Card receipt={result}></Card>);
+      
     }
   };
 
